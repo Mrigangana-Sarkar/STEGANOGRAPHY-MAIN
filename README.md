@@ -1,13 +1,13 @@
 
 
 
-Steganography-MAIN
+**Steganography-MAIN**
 
-Introduction
+**Introduction**
 
 This project implements Steganography, the practice of concealing messages or information within other non-secret data (such as images, audio, or text). The system allows users to securely hide and retrieve messages within image files.
 
-Features
+**Features**
 
 Image-based Steganography: Encode secret text messages into image files.
 
@@ -17,7 +17,7 @@ User-friendly Interface: Simple and intuitive interface for embedding and retrie
 
 Secure Encoding: Ensures message integrity and protection against casual detection.
 
-Technologies Used
+**Technologies Used**
 
 Python: Primary programming language for encoding and decoding algorithms.
 
@@ -29,24 +29,24 @@ Tkinter: GUI for user interaction.
 
 NumPy: Efficient numerical operations.
 
-Installation
+**Installation**
 
-Clone the repository:
+**Clone the repository:**
 
 git clone https://github.com/Mrigangana-Sarkar/STEGANOGRAPHY-MAIN.git
 cd STEGANOGRAPHY-MAIN
 
-Install dependencies:
+**Install dependencies:**
 
 pip install -r requirements.txt
 
-Run the application:
+**Run the application:**
 
 python main.py
 
-How It Works
+**How It Works**
 
-Encoding a Message
+**Encoding a Message**
 
 Load an image file (PNG, JPEG, etc.).
 
@@ -56,7 +56,7 @@ Click "Encode" to embed the message into the image.
 
 Save the newly created steganographic image.
 
-Decoding a Message
+**Decoding a Message**
 
 Load the steganographic image.
 
@@ -66,12 +66,12 @@ View the extracted text message.
 
 Example Usage
 
-Encoding
+**Encoding**
 
 from steganography import encode
 encode('input_image.png', 'Hello, World!', 'output_image.png')
 
-Decoding
+**Decoding**
 
 from steganography import decode
 message = decode('output_image.png')
@@ -83,7 +83,7 @@ A Tkinter-based graphical interface is available for ease of use.
 
 The GUI allows users to select images, input messages, and encode/decode data effortlessly.
 
-Applications
+**Applications**
 
 Secure Communication: Hide confidential messages in images.
 
@@ -91,7 +91,7 @@ Watermarking: Embed ownership information in digital assets.
 
 Data Security: Conceal sensitive information from unauthorized access.
 
-Future Enhancements
+**Future Enhancements**
 
 Support for additional file formats (e.g., audio and video steganography).
 
@@ -101,7 +101,7 @@ Improved message capacity without affecting image quality.
 
 Web-based interface for broader accessibility.
 
-Contributing
+**Contributing**
 
 Contributions are welcome! Follow these steps:
 
@@ -113,14 +113,11 @@ Commit your changes.
 
 Push to your fork and submit a Pull Request.
 
-License
-
-This project is licensed under the MIT License.
 
 Contact
 
-For any queries, feel free to reach out to:
+**For any queries, feel free to reach out to:**
 
 Mrigangana Sarkar
 
-GitHub: Mrigangana-Sarkar
+
